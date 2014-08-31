@@ -39,7 +39,8 @@ for ( 1..999999 ) {
 	my $val = collatz($_);
 	if ( $val > $max ) {
 		$max = $val; 
-		say "$_ : $max"; # We should expect the last value to be the maximum number AND collatz count 837799 : 525
+		say "$_ : $max"; # We should expect the last value to be the maximum number AND 
+			# the output: "837799 : 525"
 	}
 	else { next; }
 }
